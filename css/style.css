@@ -4,6 +4,10 @@
   src: url("../assets/Cyberpunk.ttf");
 }
 
+:root {
+  --couleur-texte-cyber: #f9f93f;
+}
+
 body {
   padding: 10px 15px 0px 15px;
 }
@@ -17,7 +21,7 @@ h1 {
 }
 
 .web_font {
-  color: #f9f93f;
+  color: var(--couleur-texte-cyber);
   text-shadow: 1px 1px 5px #35f727;
   text-align: center;
   background: linear-gradient(to right, #061822, #2b4e62);
